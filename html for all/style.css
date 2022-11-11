@@ -1,0 +1,107 @@
+.title-div{
+    background-image: url(img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+    padding: 50px;
+
+}
+
+.nav{
+    background-color: white;
+    width: 1500px;
+    height: 30px;
+    text-align: left;
+    margin: 0 auto;
+}
+.nav a{
+   
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.title-div h1,.title-div p{
+    color:white;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 70px;
+}
+
+.title-div p{
+    color: rgb(160, 130, 96);;
+}
+
+.check-menu{
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    margin:  0 auto;
+    height: 40px;
+    border: none;
+    background: rgb(216, 185, 149);
+}
+
+.pizza{
+    margin-left: 20px;
+    float: left;
+    width: 400px;
+    text-align: center;
+}
+.bread{
+    float: left;
+    width: 400px;
+    text-align: center;
+}
+.chicken{
+    float: left;
+    
+    width: 400px;
+    text-align: center;
+}
+.burger{
+    float: left;
+    text-align: center;
+    width: 400px;
+}
+
+.items{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+.item{
+
+    width: 100%;
+    height: auto;
+}
+
+.full-itm-btn{
+     color: white;
+    text-transform: uppercase;
+    height: 40px;
+    display: block;
+    border: none;
+    background: rgb(216, 185, 149);
+}
+
+.get-started-text{
+    float: left;
+    width: 40%;
+}
+.vid-img{
+    float: right;
+    width: 40%;
+}
+
+.get-started-btn{
+    background: black;
+    width: 40px;
+    color: white;
+}

@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0,0.50),rgba(0, 0, 0,0.50)),url("images/banner-bg.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 20px;
+}
+.gap{
+    height: 100px;
+    width: 100%;
+}
+button:hover{
+    cursor: pointer;
+}
+
+p{
+    color: rgb(129, 129, 129);
+}
+strong{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+
+
+.more{
+ 
+    display: none;
+}
+
+
+
+.title-div{
+    
+  height: 200px;
+  width: 70%;
+  position: absolute;
+ 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+}
+.title-div h1{
+    padding: 20px 10px;
+    font-size: 60px;
+    width: auto;
+    color: white;
+    border-top: 1px solid #B69386;
+    border-bottom: 3px solid #B69386;
+}
+.title-div p{
+    color: #E5C9BD;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.title-div button{
+    color: white;
+    background-color: #D3A87B;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+
+}
+.title-div button:hover{
+    background-color: #bd956a;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+
+.items-div{
+   
+    height: auto;
+    width: 100%;
+    margin: 3px;
+    text-align: center;
+    
+}
+
+
+
+.pizza{
+
+    height: 500px;
+    width: 24%;
+    float: left;
+    padding: 5px;
+  
+}
+.bread{
+  
+    height: 500px;
+    width: 24%;
+    float: left;
+    padding: 5px;
+    margin: 3px;
+}
+.burger{
+   
+    height: 500px;
+    width: 24%;
+    float: left;
+    padding: 5px;
+    margin: 3px;
+}
+.chicken{
+   
+    height: 500px;
+    width: 24%;
+    float: left;
+    padding: 5px;
+    margin: 3px;
+}
+
+.items-div p{
+    text-align: center;
+    padding: 10px;
+}
+.items-div h1{
+    text-align: center;
+    padding: 20px;
+}
+.pizza img, .chicken img,.burger img,.bread img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pizza:hover,.burger:hover,.bread:hover,.chicken:hover{
+    background-color: rgb(228, 228, 228);
+    height: 500px;
+}
+h3{
+  padding: 30px;
+}
+
+.items-div button{
+    color: white;
+    background-color: #D3A87B;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    display: block;
+    margin: 20px auto;
+}
+.items-div button:hover{
+    background-color: #c79e72;
+    box-shadow: 0px 5px 5px #9e8e7c;
+}
+
+.video-div{
+    
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+}
+ .txt-div{
+    height: 500px;
+    width: 45%;
+    
+    float: left;
+    padding: 20px;
+    margin: 3px;
+}
+
+.txt-div button{
+    height: 40px;
+    width: auto;
+    padding: 20px;
+    font-weight: bold;
+    line-height: 0px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+p.txt-p {
+    color: #c79e72;
+}
+
+.vid-div{
+    height: 500px;
+    width: 45%;
+    
+    float: right;
+    padding: 20px;
+    margin: 3px;
+}
+.video-div img{
+    height: 80%;
+    width: 80%;
+}
+
+
+
+.pricing{
+    height: 850px;
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+  
+
+}
+.pricing p{
+    font-weight: bold;
+}
+
+.basic{
+    height: 700px;
+    width: 32%;
+    border: 1px solid rgb(167, 167, 167);
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.pro{
+    height: 700px;
+    width: 32%;
+    border: 1px solid rgb(167, 167, 167);
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+    
+}
+
+.premium{
+    height: 700px;
+    width: 32%;
+    border: 1px solid rgb(167, 167, 167);
+    float: right;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.pro h1, .basic h1,.premium h1{
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+
+}
+.pro:hover,.basic:hover,.premium:hover{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+
+.basic p, .pro p, .premium p{
+    height: 12%;
+    width: 100%;
+    border-bottom: 1px solid rgb(97, 97, 97);
+    line-height: 80px;
+    font-size: 20px;
+}
+
+.pro:hover h1, .basic:hover h1,.premium:hover h1{
+    background-color: rgb(100, 100, 100);
+}
+
+ .cost{
+    height: 120px;
+    width: 100%;
+    font-weight: 100;
+  
+  border: none;
+
+}
+
+.cost h3{
+    
+    font-size: 40px;
+    padding: 3px;
+    margin:10px 1px;
+    
+    
+}
+.cost p{
+
+    margin-top: -30px;
+    border: none;
+}
+
+.cost-btn {
+    height: 140px;
+    background-color: rgb(231, 231, 231);
+    line-height: 140px;
+}
+.cost-btn button{
+    height: 80px;
+    width: 50%;
+    color: white;;
+    font-size: 30px;
+    border: none;
+    font-weight: bold;
+    background: #009689;
+}
+
+
+
+
+.latest-post{
+    height: 700px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.post1{
+    height: 100%;
+    width: 32%;
+    float: left;
+    margin:0 .5%;
+    border: 2px solid rgb(201, 201, 201);
+}
+.post2{
+    height: 100%;
+    width: 32%;
+    float: left;
+    margin:0 .5%;
+    border: 2px solid rgb(201, 201, 201);
+}
+.post3{
+    height: 100%;
+    width: 32%;
+    margin:0 .5%;
+    float: left;
+    border: 2px solid rgb(201, 201, 201);
+}
+
+
+.post1 img, .post2 img, .post3 img{
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.post1 p, .post2 p, .post3 p{
+    margin-left: 5px;
+}
+
+
+.tail-div{
+
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+.about-us{
+
+    height: 400px;
+    width: 32%;
+    color: white;
+    float: left;
+    margin-left: 1%;  
+    margin-top: 150px;
+ 
+}
+
+
+.newsletter{
+    
+    height: 100%;
+    width: 32%;
+
+    color: white;
+    float: left;
+    margin-left: 1%;
+    position: relative;
+    margin-top: 150px;
+}
+
+.follow-us{
+    height: 100%;
+    width: 32%;
+    color: white;
+    float: right;
+    margin-right: 1%;
+    position: relative;
+    margin-top: 150px;
+}
+input{
+    height: 20px;
+    width: 300px;
+    float: left ;
+}
+form button{
+    height:24px;
+    width:40px ;
+    float: left ;
+    border: none;
+    background-color:#c79e72 ;
+    margin: 0;
+}
+
+/*nav bar and drop down*/
+
+.navbar{
+    width: 80%;
+    height: 30px;
+	background-color: #ffffff;
+	padding: 1% 2%;
+	text-align: right;
+    margin: 0 auto;
+ 
+}
+.navbar a{
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 10px 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.dropdown_container{
+	display: inline;
+	position: relative;
+}
+.dropdown_content a{
+	display: block;
+    
+}
+.dropdown_content{
+	position: absolute;
+	top: 30px;
+	right: 0px;
+	background-color:white ;
+	text-align: left;
+	display: none;
+}
+
+.dropdown_content a{
+    font-size: 20px;
+}
+
+.navbar a:hover, .dropdown_container:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+.dropdown_container:hover .dropdown_content{
+	display: block;
+}
+.dropdown_content a:hover{
+	background-color: rgb(216, 216, 216);
+}
