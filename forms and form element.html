@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>form element</title>
+</head>
+	<body>
+		<form action="" method="get">
+			Username :<input type="text" name="username" maxlength="40" size="50" />
+			<br>
+			Password :<input type="password" name="password" maxlength="40" size="50">
+		</form>
+		<br>
+
+		<form>
+			pick food:
+			<select name="food">
+				
+				<option value="potato">potato</option>
+				<option value="popcorn">popcorn</option>
+				<option value="peanut">peanut</option>		
+				<option value="pizza">pizza</option>
+				<option value="burger">burger</option>			
+			</select>
+		</form>
+
+		<br>
+
+		<form>
+			pick food:
+			<select name="food" multiple size="3">
+				<optgroup label="salty food">
+				<option value="potato">potato</option>
+				<option value="popcorn">popcorn</option>
+				<option value="peanut">peanut</option>
+				</optgroup>
+				<optgroup label="hot food">
+				<option value="pizza">pizza</option>
+				<option value="burger">burger</option>
+				</optgroup>
+			</select>
+		</form>
+
+		<br>
+
+		<form>
+			what do you do in your sapre time?<br>
+			<input type="checkbox" name="spare_time"value="sports">play sport<br>
+			<input type="checkbox" name="spare_time" value="games">play game<br>
+			<br>
+			do you play football?<br>
+			<input type="radio" name="plays" value="yes">yes<br>
+			<input type="radio" name="plays" value="no">No<br>
+		</form>
+
+		<br>
+
+		<form action="" method="get">
+			Tell me a story<br>
+			<textarea name="story" row="15" cols="50" ></textarea>
+		</form>
+
+	</body>
+</html>

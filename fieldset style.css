@@ -1,0 +1,25 @@
+fieldset{
+	width: 500px;
+	background-color: lawngreen;
+}
+.personal_info label{
+	float: inherit;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+
+}
+legend{
+	font-weight: bold;
+
+}
+p{
+	background-color: lightblue;
+}
+input{
+	float: aligned;
+}
+label{
+	float: inherit;
+}
+

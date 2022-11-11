@@ -1,0 +1,54 @@
+
+.lorem{
+
+	font-weight: 500;
+	font-family: Times New Roman;
+	border: 10px;
+	border-color: darkred;
+	margin: 10px;
+	color: rgb(0, 255, 187);
+	background: #d6ffd8;
+	text-align: justify;
+	
+	width: 500px;
+
+
+
+
+}
+
+#lorem1{
+	color: red;
+	font-family: Areal;
+	text-decoration: line-through;
+	width: 500px;
+
+}
+
+
+a{
+	color: greenyellow;
+	text-decoration: none;
+}
+
+a:hover{ /*jokhon mouse niye jabo but  click korini ota hover*/
+
+	color: red;
+	text-decoration: underline;
+}
+a:active{
+	color: blueviolet;
+	text-decoration: line-through;
+}
+a:visited{
+	color: grey;
+	text-decoration: none;
+}
+
+ul{
+	height: 10px;
+  	width: 10px;
+	list-style-type: lower-greek;
+	list-style-image: url(img/download.webp);
+	line-height: 200%;
+}

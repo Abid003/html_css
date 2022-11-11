@@ -1,0 +1,20 @@
+body{
+	font-family: Areal;
+	font-size: 25px;
+	
+}
+div.box{
+	border: 5px solid red;
+	width: 400px;
+	height: 200px;
+	background: #b0ffd1;
+	overflow: auto;
+	position: relative;
+	left: 50px;/*static e left right er kono change nai but relative dile kaj korbe*/
+	margin: 20px;/*static e but margin dile kaj korbe*/
+}
+div.box img{
+	position: absolute;/*image fix thakbe*/
+	left: 500px;
+	right: 500px;
+}

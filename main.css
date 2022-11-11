@@ -1,0 +1,15 @@
+fieldset{
+	width: 500px;
+	background-color: skyblue;
+}
+.personal_info label{
+	float: left;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+
+}
+fieldset_legend{
+	font-weight: bold;
+	font-size: 20px;
+}

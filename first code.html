@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>class 1</title>
+	</head>
+
+	<body>
+		<h1 style="font-size: "";">heading 1 is like this </h1>
+
+		<p>Lorem &nbsp;&nbsp;&nbsp; ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. <br><br>Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.<hr> Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+		<pre>
+			// C++ program for implementation of Bubble sort
+#include <bits/stdc++.h>
+using namespace std;
+ 
+void swap(int *xp, int *yp)
+{
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+ 
+// A function to implement bubble sort
+void bubbleSort(int arr[], int n)
+{
+    int i, j;
+    for (i = 0; i < n-1; i++)    
+     
+    // Last i elements are already in place
+    for (j = 0; j < n-i-1; j++)
+        if (arr[j] > arr[j+1])
+            swap(&arr[j], &arr[j+1]);
+}
+ 
+/* Function to print an array */
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i = 0; i < size; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+ 
+// Driver code
+int main()
+{
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    bubbleSort(arr, n);
+    cout<<"Sorted array: \n";
+    printArray(arr, n);
+    return 0;
+}
+ 
+// This code is contributed by rathbhupendra
+		</pre>
+
+
+		<p><b>to bold text b tag is used </b></p>
+		<p><strong>this is also bold tag</strong></p>
+
+		<p><i>to make italc text tag use i </i></p>
+		<p><em>to make italc text tag use i </em></p>
+
+		<p><u>under line </u></p>
+		<p><ins>under line </ins></p>
+
+		<p><mark>this is highlighter</mark></p>
+
+		<p>price <del><small>510</small></del> 400 </p>
+
+		<p>a<sup>2</sup>+b<sup>2</sup></p>
+
+		<p>H<sub>2</sub>O</p>
+
+		<p><b><i><mark>this is bold italic and highlighted text, jeta ending e first e ache seta seta jabe last e that means lifo last in fast out</mark></i></b></p>
+
+		<P>the poet said <q>this tag is for choto ukti</q></P>
+
+		the writer said <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</blockquote>
+
+
+		<address>
+			hetemkha
+			rajshahi
+		</address>
+
+
+		<h1>list</h1>
+		<ol type="i">
+			<li>coffee</li>
+			<li>tea</li>
+			<li>cocke</li>
+		</ol>
+
+		<ul type="circle">
+			<li>coffee</li>
+			<li>tea</li>
+			<li>cocke</li>
+		</ul>
+
+		<h1>nasted list</h1>
+		<ol type="i">
+			<li>coffee <ul>
+					<li>hot</li>
+					<li>cold</li>
+				</ul>
+			</li>
+			<li>tea
+
+				<ol type="i">
+					<li>black</li>
+					<li>green</li>
+				</ol>
+
+			</li>
+			<li>cocke</li>
+		</ol>
+
+
+<dl>
+	<dt>coffee</dt>
+	<dd>black hot drink</dd>
+
+	<dt>poteto </dt>
+	<dd>kind of vagitable</dd>
+
+
+</dl>
+
+	</body>
+</html>
